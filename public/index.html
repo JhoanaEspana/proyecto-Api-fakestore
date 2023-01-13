@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Probando proyecto API Fakestore</title>
+</head>
+
+<body class="bg-slate-100">
+  <header class="content">
+    <nav class="flex justify-between py-6">
+      <img class="w-40" src="./assets/logo-store.svg" alt="">
+      <ul class="flex items-center">
+        <li class="pl-8"><a href="#">Home</a></li>
+        <li class="pl-8"><a href="#">Products</a></li>
+        <li class="pl-8"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="flex p-8 rounded-lg bg-primary-100 content h-52">
+      <div class="flex flex-col justify-center">
+        <h1 class="text-3xl font-bold text-center">Get the best product</h1>
+        <form action="">
+          <input type="text" name="" id="">
+          <input type="submit" value="Search">
+        </form>
+      </div>
+      <div>
+        
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="pt-10 pb-10 list-categories">
+        <h2>Listado de categorias</h2>
+        <ul class="flex list-categories-items">
+          <li class="li-items">Todas las categorias</li>
+        </ul>
+      </div>
+      <div class="max-w-2xl px-4 py-16 mx-auto bg-white sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+
+        <div id="products-content" class="wrap-content">
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <template id="product-template">
+    <div class="product-item">
+      <div class="max-w-[50%] overflow-hidden product-image">
+        <img src="#" alt="">
+      </div>
+      <div class="product-info">
+        <div class="product-name">
+          <h3></h3>
+          <p class="product-category"></p>
+        </div>
+        <p class="product-price"></p>
+      </div>
+    </div>
+  </template>
+  <script src="./main.js"></script>
+</body>
+
+</html>
