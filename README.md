@@ -1,5 +1,10 @@
 # proyecto-Api-fakestore
-proyecto donde se consume la Api-fakestore con Javascript
+proyecto donde se consume - se filtra por categoria y titulo la Api-fakestore con Javascript
+
+
+  ```sh
+https://fakestoreapi.com/
+  ```
 
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
